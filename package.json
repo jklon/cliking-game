@@ -1,0 +1,23 @@
+{
+  "name": "finomina_code",
+  "version": "1.0.0",
+  "description": "Click game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jklon/click_game.git"
+  },
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.10",
+    "socket.io": "^1.4.8"
+  }
+}

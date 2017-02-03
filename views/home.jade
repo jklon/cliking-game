@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  script(src="/socket.io/socket.io.js")
+  script(src="js/home.js")
+  script(src="js/socket.js")
+  script(src="js/cookies.js")
+  link(rel='stylesheet', href='css/home.css')
+  
+
+  div#game-block
+  div#game-cell-template-html
+    div.game-cell-template
+    
+  div#background-overlay
+  div#start-box
+    div#winner-board
+    input(type='text' name='player-name' id='playername-input-field')
+    p#waiting Waiting ...
+    a#name-enter Enter
+    a#start-game Start
+
+  div#lock
+    p Locked
+
+  div#score-board
